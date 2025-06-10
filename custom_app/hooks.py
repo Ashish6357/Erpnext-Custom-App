@@ -213,3 +213,23 @@ app_license = "MIT"
 # auth_hooks = [
 #	"custom_app.auth.validate"
 # ]
+fixtures = [
+    {
+        "doctype": "Workflow"
+    },
+    {
+        "doctype": "Workflow State"
+    },
+    {
+        "dt": "Workflow Action Master",
+        "filters": [
+            ["name", "in", ['Submit']]
+        ]
+    },
+    {
+        "doctype": "Report",
+        "filters": [
+            ["name", "=", "Service Booking Details"]
+        ]
+    },
+]
