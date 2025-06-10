@@ -21,3 +21,8 @@ I created Custom App rest of details you can find under this app
 
 4. Build a Report
     Service Booking Details Query Report is created with filters.
+
+○ OS - Windows 11
+○ Python version 3.10.12
+○ ERPNext/Frappe version - Version 14
+○ Any tools or editors used -VS Code
