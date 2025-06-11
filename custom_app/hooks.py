@@ -223,13 +223,19 @@ fixtures = [
     {
         "dt": "Workflow Action Master",
         "filters": [
-            ["name", "in", ['Submit']]
+            ["name", "in", ["Submit"]]
         ]
     },
     {
         "doctype": "Report",
         "filters": [
-            ["name", "=", "Service Booking Details"]
+            ["name", "in", ["Service Booking Details", "Customer Group Summary"]]
+        ]
+    },
+    {
+        "doctype": "Client Script",
+        "filters": [
+            ["name", "in", ["Purchase Invoice", "Sales Invoice"]]
         ]
     },
 ]

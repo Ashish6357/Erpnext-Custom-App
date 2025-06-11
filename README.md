@@ -8,16 +8,20 @@ MIT
 
 
 I created Custom App rest of details you can find under this app
-1. Create a Custom Doctype
-    New Doctype created name as Service Booking with below fields
-    Workflow also created with same status- Requested → Approved → Completed
-    Workflow added in hooks.py file so you can find in fixtures folder
+1. Customer Link Filtering
+    Client script created for this Name as Sales Invoice and export throw Fixtures.
 
-2. Add Client or Server Script
-    In client script you can find in service_booking.js file and frappe call throw its sending mail that whitelisted method in send_notification.py file
+2. Last 3 Purchase Rates Display
+    Client Script Created for this Name as Purchase Invoice and frappe call throw i am fetching data from REST API and render when item value change throw html pop up.
+   
+3. Customer Group Summary Report
+    Created a Query Report name as Customer Group Summary and showing the total number of customers, grouped by
 
-3. Create a Print Format
-    Print format is created name as Service Booking you can check from Service Booking doctype form
+4. Custom Doctype + Workflow
+    Created a new Doctype Name as Supplier Evaluation with fields:
+    ○ Supplier (Link to Supplier)
+    ○ Rating (1–5)
+    ○ Comments (Text)
 
 4. Build a Report
     Service Booking Details Query Report is created with filters.
