@@ -233,10 +233,4 @@ fixtures = [
             ["name", "in", ["Service Booking Details", "Customer Group Summary"]]
         ]
     },
-    # {
-    #     "doctype": "Client Script",
-    #     "filters": [
-    #         ["name", "in", ["Purchase Invoice", "Sales Invoice"]]
-    #     ]
-    # },
 ]
